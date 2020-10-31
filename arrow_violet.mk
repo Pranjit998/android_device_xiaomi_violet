@@ -31,3 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Force triple frame buffers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
