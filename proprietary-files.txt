@@ -877,9 +877,9 @@ vendor/bin/hw/vendor.display.color@1.0-service|8646c74c5b19e6d5086d7a4f83e075761
 # Power-off charging daemon
 -bin/charger:bin/chargeonlymode
 
-# Qualcomm MSM Interface
-etc/permissions/qti_libpermissions.xml
-etc/permissions/qti_permissions.xml
+# Qualcomm MSM Interface - from tucana-user-11-RKQ1.200826.002-20.10.15-release-keys
+system_ext/etc/permissions/qti_libpermissions.xml
+system_ext/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/lib64/libdiag.so
