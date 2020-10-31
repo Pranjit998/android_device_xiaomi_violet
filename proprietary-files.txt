@@ -120,7 +120,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 
-# Carrier Settings - from coral-user 11 RP1A.200720.009 6720564 release-keys
+# Carrier Settings - from coral-user-11-RP1A.201005.004-6782484-release-keys
 product/etc/CarrierSettings/airtel_in.pb
 product/etc/CarrierSettings/apt_tw.pb
 product/etc/CarrierSettings/att5g_us.pb
