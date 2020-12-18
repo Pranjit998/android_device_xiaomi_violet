@@ -15,11 +15,11 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common ArrowOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/rom-name/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 DEVICE_MAINTAINER := Abhay Kshatriya
-PRODUCT_NAME := arrow_violet
+PRODUCT_NAME := rom-name_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
